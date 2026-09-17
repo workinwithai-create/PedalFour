@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PedalFour — four-bar pedal-point desk</title>
+  <meta name="description" content="Four live bars with a planted bass or pad pedal under moving harmony. Tension builds; the next section resolves." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<main>
+  <p class="eyebrow">WorkinWithAI · live chairs</p>
+  <h1>PedalFour</h1>
+  <p class="lead">Four-bar pedal desk. Suno and loop DAWs move the root with every chord so nothing ever leans. Session players plant a pedal — bass, pad, or both — under four bars of changing harmony so tension builds, then the next section resolves. Live piano, upright, nylon, kit, trumpet, violin. Not BreakFour (air before last chorus). Not LiftTwo (climb into the hook). Not TurnFour (section hand-off). Not PreEight or AfterHook.</p>
+  <p class="status" id="status">Seating chairs…</p>
+  <p class="eyebrow">Groove</p>
+  <div class="row" id="grooves"></div>
+  <p class="eyebrow">Pedal</p>
+  <div class="row" id="recipes"></div>
+  <p class="eyebrow">Form · pocket 1–4 · pedal 5–8</p>
+  <div class="bars" id="bars"></div>
+  <h2>Punch list</h2>
+  <pre id="punch"></pre>
+</main>
+<div class="dock">
+  <button id="playA">A · Pocket only</button>
+  <button id="playB">B · Full form</button>
+  <button id="play8">8 · Pedal</button>
+  <button class="ghost" id="stop">Stop</button>
+  <button class="ghost" id="copy">Copy punch</button>
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

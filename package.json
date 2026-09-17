@@ -1,0 +1,11 @@
+{
+  "name": "pedalfour",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Four-bar live pedal-point desk for bedroom producers and AI-music finishers",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "start": "npx serve . -p 3000"
+  },
+  "license": "MIT"
+}
